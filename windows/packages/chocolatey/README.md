@@ -1,3 +1,4 @@
+
 # Chocolatey install scripts
 Chocolatey is a package manager for windows, allowing you to install apps with a single command. This is how you install Google Chrome using chocolatey: ```choco install GoogleChrome```
 
@@ -6,14 +7,16 @@ Chocolatey is like Homebrew for macOS. YUM or DNF, or APT for Linux.
 
 See [github repo](https://github.com/chocolatey/choco)
 
-### Usage (paste the code below)
+### Usage 
 **First install Chocolatey using cmd prompt (right-click Command Prompt and run as Administrator)**
 
-```
+(paste the code below)
+
+```PowerShell
 @powershell -NoProfile -ExecutionPolicy Bypass -Command "iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))" && SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin
 ```
 
-**Then download and run the choco script**
+**[Download and run the choco script](../../scripts/choco-install-apps.ps1)
 
 ***Take note, look at the choco-install-apps.ps1, it contains list of apps to be installed. Make your own app selection or use what I have. To make your own, edit the code below. More instructions below.***
 

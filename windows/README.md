@@ -1,6 +1,4 @@
 
----
-
 # Windows 11 Installation and Optimization Guide  
 A comprehensive guide to installing and optimizing Windows 11, especially for users leveraging AI video rendering capabilities with modern graphics cards.
 
@@ -147,7 +145,7 @@ To access advanced features like WSL 3.0:
 ### Clean Up Windows 11 Bloatware
 - Use **W11 Debloat** to remove unnecessary W11 junk:
   - [W11 Debloat](https://github.com/raphire/win11debloat)
-  - [Logfile to show what's being removed](Win11Debloat.log)
+  - [Logfile to show what's being removed](../windows/debloat/Win11Debloat.log)
 
 ---
 

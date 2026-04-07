@@ -15,7 +15,7 @@ See [github repo](https://github.com/microsoft/winget-cli/releases)
 winget --version
 ```
 
-**Save the script above as winget-install-apps.ps1**
+**Save the script above as [winget-install-apps.ps1](../../scripts/winget-install-apps.ps1)**
 
 **(If needed) allow script execution for this session:**
 
