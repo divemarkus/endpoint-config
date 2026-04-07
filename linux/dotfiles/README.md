@@ -21,6 +21,7 @@ Examples:
 
 ---
 
+```
 linux/
 ├── dotfiles/
 │   ├── zsh/
@@ -37,3 +38,6 @@ linux/
 │   └── starship/ (optional)
 │
 └── bootstrap/
+```
+
+---
