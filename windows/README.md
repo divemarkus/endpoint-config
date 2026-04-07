@@ -116,7 +116,7 @@ To access advanced features like WSL 3.0:
  ```
 - (screenshot):
 
-  <img width="1120" height="530" alt="mpc-be64_43FjbRfgZI" src="https://github.com/user-attachments/assets/a2d9cd38-089f-4bef-974e-6d8ea2f86024" />
+<img width="1120" height="530" alt="mpc-be64_43FjbRfgZI" src="https://github.com/user-attachments/assets/e9d78a5a-ca78-4cc1-b5e2-13428e1fc4e4" />
 
 ---
 
