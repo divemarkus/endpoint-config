@@ -21,6 +21,8 @@ Examples:
 
 ---
 
+<details>
+
 ```
 linux/
 ├── dotfiles/
@@ -39,6 +41,9 @@ linux/
 │
 └── bootstrap/
 ```
+
+</details>
+
 ---
 
 # 🧠 Why modularize `.zshrc`?
