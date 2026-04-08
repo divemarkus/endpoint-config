@@ -287,7 +287,6 @@ But this is **not real security enforcement**, because:
   * Not cryptographically “trusted publishers” like a strict repo
   * Not zero-trust
 
----
 
 ### 2. It Still Executes External Installers
 
@@ -314,7 +313,6 @@ Winget installs:
 * Full system-level apps
 * With native privileges
 
----
 
 # ⚖️ What It *Actually* Improves
 
@@ -328,7 +326,6 @@ You get predictable results:
 | Source ambiguity           | Fixed source           |
 | Different install behavior | Consistent             |
 
----
 
 ### ✅ Operational Consistency
 
@@ -338,7 +335,6 @@ Critical for:
 * CI/CD
 * Golden images
 
----
 
 ### ✅ Reduced Surprise Factor
 
@@ -347,31 +343,23 @@ Avoids:
 * Store app sandboxing
 * Different update mechanisms
 
----
-
 # 🔐 Real Security Features in Winget
 
-If you're thinking like a systems engineer, **these are the actual security controls**:
+**these are the actual security controls**:
 
 ### 1. Hash Validation
 
 * Each manifest includes SHA256
 * Prevents tampered downloads
 
----
-
 ### 2. HTTPS Enforcement
 
 * Downloads via secure channels
-
----
 
 ### 3. Manifest Review Process
 
 * PR-based validation on GitHub
 * Community + Microsoft checks
-
----
 
 ### 4. Package Identity Matching
 
@@ -384,16 +372,12 @@ Prevents:
 * Name spoofing
 * Wrong package installs
 
----
-
 # 🚨 Real Security Risks (Even With `--source winget`)
 
 * Supply chain risk (compromised vendor installer)
 * Silent install flags doing unexpected things
 * No sandboxing
 * Privilege escalation if run elevated
-
----
 
 # 🧠 Best Practice (What You *Should* Do)
 
@@ -407,30 +391,6 @@ winget install --id Git.Git \
   --accept-source-agreements
 ```
 
----
-
-### 🏢 For Enterprise / Lab Environments
-
-Don’t rely on `--source winget` alone.
-
-Instead:
-
-#### 1. Create Private Repo
-
-* Mirror approved packages
-* Use REST source
-
-#### 2. Pin Versions
-
-* Avoid automatic latest
-
-#### 3. Validate Installers
-
-* Internal checksum verification
-* Optional re-hosting
-
----
-
 # 🧾 Bottom Line
 
 | Statement                           | True / False |
@@ -439,21 +399,6 @@ Instead:
 | It improves consistency             | ✅ True       |
 | It reduces ambiguity                | ✅ True       |
 | It enforces trust boundaries        | ❌ False      |
-
----
-
-# 🧠 Final Take
-
-Think of `--source winget` like:
-
-> “Use *this catalog only*” — not “make this install safe.”
-
-If you want **real security**, you need:
-
-* Controlled sources
-* Verified binaries
-* Version pinning
-* Least privilege installs
 
 </details>
 
