@@ -2,6 +2,8 @@
 # Windows 11 Installation and Optimization Guide  
 A comprehensive guide to installing and optimizing Windows 11, especially for users leveraging AI video rendering capabilities with modern graphics cards.
 
+<details>
+
 ## Table of Contents
 - [Prerequisites](#prerequisites)
 - [Installation Steps](#installation-steps)
@@ -11,6 +13,8 @@ A comprehensive guide to installing and optimizing Windows 11, especially for us
 - [Security Features](#security-features)
 - [Removing Bloatware](#removing-bloatware)
 - [Troubleshooting](#troubleshooting)
+
+</details>
 
 ---
 
@@ -64,11 +68,9 @@ start ms-cxh:localonly
 ---
 
 ## Post-Install Configuration
-### Enable Developer Mode
-To access advanced features like WSL 3.0:
-1. Press `Win + I` to open Settings.
-2. Go to `About > Windows Update > Advanced Options > Optional Features`.
-3. Click "Install Now" under **Windows Insider Program**, then enable it.
+### Install Apps with winget or other package manager
+1. [What is winget](winget.md)
+2. Enable Developer Tools (optional)
 
 ---
 
