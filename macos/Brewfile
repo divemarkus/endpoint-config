@@ -1,0 +1,38 @@
+# Core CLI
+brew "git"
+brew "wget"
+brew "curl"
+brew "jq"
+brew "htop"
+brew "fzf"
+brew "ripgrep"
+brew "bat"
+brew "eza"
+brew "zoxide"
+brew "tmux"
+
+# Dev
+brew "python"
+brew "node"
+brew "go"
+brew "rust"
+brew "docker"
+brew "docker-compose"
+
+# ML / Build
+brew "cmake"
+brew "llvm"
+
+# Dev Productivity
+brew "direnv"
+brew "pyenv"
+brew "uv"
+
+# Apps (Casks)
+cask "iterm2"
+cask "visual-studio-code"
+cask "docker"
+cask "raycast"
+cask "rectangle"
+cask "obsidian"
+cask "google-chrome"
