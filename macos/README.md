@@ -12,6 +12,8 @@ This is a **clean, modern setup** using:
 
 ## 📁 Repo Structure
 
+**The structure below doesn't represent this repo. This is the structures, should you create your own**
+
 ```
 dotfiles/
 ├── Brewfile
