@@ -147,7 +147,7 @@ start ms-cxh:localonly
 ### Clean Up Windows 11 Bloatware
 - Use **W11 Debloat** to remove unnecessary W11 junk:
   - [W11 Debloat](https://github.com/raphire/win11debloat)
-  - [Logfile to show what's being removed](../windows/debloat/Win11Debloat.log)
+  - [Logfile to show what's being removed](../../windows/debloat/Win11Debloat.log)
 
 ---
 
