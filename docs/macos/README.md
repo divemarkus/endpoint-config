@@ -131,3 +131,6 @@ Recovery will:
 
 ---
 
+## 💡 Projects to monitor
+- [oMLX - beta](https://omlx.ai/)
+- [OpenCode Desktop App - beta](https://opencode.ai/download)
