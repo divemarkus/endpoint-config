@@ -125,6 +125,7 @@ That combo = **lean Windows 11 without breaking updates**
 ## Bottom Line
 
 ✔ **Yes, Rufus is one of the easiest and safest ways to bypass TPM/Secure Boot + Microsoft account requirements during install**
+
 ❗ But it’s **not a full debloat solution**—just the first step in a clean Windows build.
 
 ---

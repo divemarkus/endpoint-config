@@ -1,5 +1,9 @@
 
-# 🔁 Method 1 (Recommended): Erase Assistant (Fast + Safe)
+# MacOS Getting started
+
+It's always a good idea to factory reset your macOS
+
+## 🔁 Method 1 (Recommended): Erase Assistant (Fast + Safe)
 
 This is the easiest and most reliable way.
 
