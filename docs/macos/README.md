@@ -1,5 +1,5 @@
 
-# MacOS Getting started
+# macOS Getting started
 
 It's always a good idea to factory reset your macOS
 
